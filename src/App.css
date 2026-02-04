@@ -1,0 +1,56 @@
+/* =========================================
+   1. GLOBAL RESET
+   ========================================= */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #0f172a;
+  color: white;
+}
+
+/* =========================================
+   2. LOGIN PAGE LAYOUT (Targeting Amplify)
+   ========================================= */
+/* This selector targets the Login Wrapper ONLY when it exists */
+[data-amplify-authenticator] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0f172a;
+}
+
+/* =========================================
+   3. AMPLIFY THEME OVERRIDES
+   ========================================= */
+[data-amplify-theme] {
+  --amplify-colors-background-primary: #1e293b; 
+  --amplify-colors-background-secondary: #0f172a;
+  --amplify-colors-font-primary: #f8fafc;
+  --amplify-colors-font-secondary: #94a3b8;
+  --amplify-colors-font-interactive: #60a5fa;
+  --amplify-colors-brand-primary-10: #2563eb;
+  --amplify-colors-brand-primary-80: #2563eb;
+  --amplify-colors-brand-primary-90: #1d4ed8;
+  --amplify-components-fieldcontrol-border-color: #334155;
+  --amplify-components-tabs-item-active-border-color: #2563eb;
+  --amplify-components-tabs-item-active-color: #2563eb;
+}
+
+/* =========================================
+   4. INPUT TEXT VISIBILITY FIX
+   ========================================= */
+.amplify-input {
+  color: #334155 !important;
+  background-color: transparent;
+  border: 1px solid #334155 !important;
+}
+
+.amplify-input:focus {
+  border-color: #2563eb !important;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3) !important;
+}
+
+.amplify-tabs__item {
+  background-color: transparent;
+}
