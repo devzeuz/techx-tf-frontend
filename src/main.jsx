@@ -8,8 +8,8 @@ import '@aws-amplify/ui-react/styles.css';
 Amplify.configure({
   Auth: {
     Cognito: {
-      userPoolId: 'us-east-1_DegMgyNo3', // Found in Cognito Console > User Pool Overview
-      userPoolClientId: '6ipa31e74neo18nh06tkb6el15', // Found in Cognito > App Integration tab
+      userPoolId: 'us-east-1_Kqyb5N3eF', // Found in Cognito Console > User Pool Overview
+      userPoolClientId: '10dpk3rrv99ta58pttfg9pa9t5', // Found in Cognito > App Integration tab
     }
   }
 });

@@ -2,7 +2,7 @@
 import { fetchAuthSession } from 'aws-amplify/auth';
 
 // API Gateway URL
-const API_URL = "https://3eop7ajzvl.execute-api.us-east-1.amazonaws.com/dev"; 
+const API_URL = "https://2ar89thnc4.execute-api.us-east-1.amazonaws.com/development"; 
 
 // If the user does not provide a method, it defaults to GET.
 // The endpoint is the resource i want to access.
